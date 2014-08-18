@@ -1,7 +1,7 @@
 
 ## makeCacheMatrix
 ## Input: A matrix for which one will want to calculate de Inverse of.
-## It is assumed that the matrix is square (NxN)
+## It is assumed that the matrix is invertible.
 ## Output: A list of 4 functions:
 ## * set = Set the Matrix to compute the Inverse. Receives the Matrix as Input
 ## * get = Get the Matrix to compute the Inverse. Null input, returns a Matrix 
